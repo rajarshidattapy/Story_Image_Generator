@@ -59,18 +59,19 @@ git clone https://github.com/yourusername/story_image_generator.git
 cd story_image_generator
 ```
 
--> **If you don't have ollama installed.**
-   a. Go to https://ollama.com/download/windows
-   b. Download.
-   c. After downloading, go to cmd and type:
-```bash
-         ollama pull llama3.2:1b
-```
+**If you don't have Ollama installed:**
+
+1. Go to [Ollama Windows Download](https://ollama.com/download/windows)
+2. Download and install Ollama.
+3. After installing, open Command Prompt and run:
 
 ```bash
-git clone https://github.com/yourusername/story_image_generator.git
-cd story_image_generator
+ollama pull llama3.2:1b
 ```
+
+---
+
+Do you want me to also Markdown the **serve command** instructions?
 
 2. **Create a virtual environment and activate it**
 
