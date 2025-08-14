@@ -8,7 +8,7 @@
 
 ## **Project Overview**
 
-This project is a **FastAPI web application** that leverages **LangChain** and **Ollama LLM** to generate a **short story**, **character description**, and **background description** from a user prompt. It then uses the descriptions to generate **character and background images**, merges them into a **single coherent scene**, and displays everything in a single-page web interface using **black-forest-labs/FLUX.1-dev**.
+This project is a **FastAPI web application** that leverages **LangChain** and **Ollama LLM's llama3.2:1b model** to generate a **short story**, **character description**, and **background description** from a user prompt. It then uses the descriptions to generate **character and background images**, merges them into a **single coherent scene**, and displays everything in a single-page web interface using **black-forest-labs/FLUX.1-dev**.
 
 Key features:
 
@@ -53,6 +53,19 @@ User Prompt
 ## **Setup Instructions**
 
 1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/story_image_generator.git
+cd story_image_generator
+```
+
+-> **If you don't have ollama installed.**
+   a. Go to https://ollama.com/download/windows
+   b. Download.
+   c. After downloading, go to cmd and type:
+```bash
+         ollama pull llama3.2:1b
+```
 
 ```bash
 git clone https://github.com/yourusername/story_image_generator.git
